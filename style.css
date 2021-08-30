@@ -1,0 +1,60 @@
+body{
+    font-family: cursive;
+
+}
+.grid-container {
+display: grid;
+grid-template-columns: auto auto auto;
+background-color: #93c5ee;
+padding: 10px;
+background: url("bg_1.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+border-radius:27px ;
+}
+.card {
+background-color: rgba(252, 229, 229, 0.8);
+border: 3px solid rgba(0, 0, 0, 0.8);
+border-radius: 23px;
+padding: 20px 10px;
+margin: 10px auto;
+font-size: 30px;
+text-align: center;
+}
+.card-link{
+border: 1px solid rgb(248, 94, 94);
+border-radius: 10px;
+text-decoration: none;
+color: rgb(245, 154, 51);
+/* margin:14px 14px; */
+
+}
+.hd{
+ display: inline-block;   
+text-align: center;
+background-color: rgb(51, 50, 50);
+border-radius: 27px;
+margin-top: 0px;
+}
+.hd h1{
+color:white;
+}
+#result{
+font-size: 1.4rem;
+color:white;
+}
+footer{
+    display: inline-block;   
+text-align: center;
+background-color: rgb(245, 147, 147);
+border-radius: 27px;
+margin-top: 4px; 
+margin-bottom: 0px; 
+width: 100%;
+}
+ #p1{
+     color: green;
+ }
+ footer p{
+     color: white;
+ }
